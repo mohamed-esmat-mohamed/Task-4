@@ -82,6 +82,18 @@ namespace c_05
             #endregion
 
 
+            #region Question 9 - String to Enum using TryParse
+            string genreText3 = "Mystery";
+
+            if (Enum.TryParse<Genre>(genreText3, out Genre result))
+            {
+                Console.WriteLine(result);
+            }
+            else
+            {
+                Console.WriteLine("Unknown genre");
+            }
+            #endregion
 
         }
     }
