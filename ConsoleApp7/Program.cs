@@ -42,7 +42,14 @@ namespace c_05
             #endregion
 
 
-        
+            #region Question 4 - Enum Property
+            book.Genre = Genre.Science;
+            Console.WriteLine(book.Genre);
+            #endregion
+
+
+
+
         }
     }
 }
