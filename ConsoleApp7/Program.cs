@@ -64,6 +64,13 @@ namespace c_05
             #endregion
 
 
+            #region Question 7 - Enum to String
+            Genre genre = Genre.Fiction;
+
+            string genreText = genre.ToString();
+
+            Console.WriteLine(genreText);
+            #endregion
 
 
         }
