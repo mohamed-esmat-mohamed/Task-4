@@ -37,6 +37,8 @@ namespace c_05
             Console.WriteLine(book.copiesInStock);
             #endregion
 
+
+ 
         }
     }
 }
