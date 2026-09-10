@@ -48,6 +48,12 @@ namespace c_05
             #endregion
 
 
+            #region Question 5 - Enum to int
+            Console.WriteLine((int)Genre.Fiction);
+            Console.WriteLine((int)Genre.NonFiction);
+            Console.WriteLine((int)Genre.Science);
+            #endregion
+
 
 
         }
