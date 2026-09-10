@@ -55,6 +55,16 @@ namespace c_05
             #endregion
 
 
+            #region Question 6 - int to Enum
+            int genreNumber = 1;
+
+            Genre genreValue = (Genre)genreNumber;
+
+            Console.WriteLine(genreValue);
+            #endregion
+
+
+
 
         }
     }
