@@ -36,9 +36,13 @@ namespace c_05
             #region Question 2 - internal
             Console.WriteLine(book.copiesInStock);
             #endregion
+            #region Question 3 - public
+            book.Title = "C# Basics";
+            Console.WriteLine(book.Title);
+            #endregion
 
 
- 
+        
         }
     }
 }
