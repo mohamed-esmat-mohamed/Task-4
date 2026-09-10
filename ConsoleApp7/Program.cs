@@ -73,6 +73,16 @@ namespace c_05
             #endregion
 
 
+            #region Question 8 - String to Enum using Parse
+            string genreText2 = "Science";
+
+            Genre parsedGenre = Enum.Parse<Genre>(genreText2);
+
+            Console.WriteLine(parsedGenre);
+            #endregion
+
+
+
         }
     }
 }
